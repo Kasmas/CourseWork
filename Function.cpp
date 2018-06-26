@@ -105,3 +105,23 @@ void Div()
 	cin >> b;
 	cout << a << " / " << b << " = " << setprecision(8) << a / b << endl;
 }
+
+void Radical()
+{
+	double a, b;
+	cout << "Enter the number: ";
+	cin >> a;
+	cout << "The root of which degree one must extract? ";
+	cin >> b;
+	cout << "Root " << b << " of degree " << a << " is equal to " << pow(a, 1 / b) << endl;
+}
+
+void Power()
+{
+	double a, b;
+	cout << "Enter the number ";
+	cin >> a;
+	cout << "Enter the degree: ";
+	cin >> b;
+	cout << a << "^" << b << " = " << pow(a, b) << endl;
+}
