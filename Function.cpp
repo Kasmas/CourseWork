@@ -34,3 +34,8 @@ bool ShowMenu()
 
 	return false;
 }
+
+void Error()
+{
+	cout << "Invalid input, try again" << endl;
+}
