@@ -64,6 +64,17 @@ void Sub()
 	double a, b;
 	cout << "Enter the first number: ";
 	cin >> a;
+	cout << "Enter the second numbe: ";
+	cin >> b;
+	cout << a << " / " << b << " = " << setprecision(8) << a / b << endl;
+}
+
+void Sqrt()
+{
+	double a;
+	cout << "Enter the number: ";
+	cin >> a;
+	cout << "sqrt(" << a << ") = " << sqrt(a) << endl;
 	cout << "Enter the second number: ";
 	cin >> b;
 	cout << a << " - " << b << " = " << setprecision(8) << a - b << endl;
@@ -86,4 +97,14 @@ void Mul()
 		cout << setprecision(8) << s[i] << " * ";
 	cout << setprecision(8) << s[number - 1] << " = " << setprecision(8) << answer << endl;
 	delete[]s;
+}
+
+void Div()
+{
+	double a, b;
+	cout << "Enter the first number: ";
+	cin >> a;
+	cout << "Enter the second numbe: ";
+	cin >> b;
+	cout << a << " / " << b << " = " << setprecision(8) << a / b << endl;
 }
