@@ -58,3 +58,13 @@ void Sum()
 	cout << setprecision(8) << s[number - 1] << " = " << setprecision(8) << answer << endl;
 	delete[]s;
 }
+
+void Sub()
+{
+	double a, b;
+	cout << "Enter the first number: ";
+	cin >> a;
+	cout << "Enter the second number: ";
+	cin >> b;
+	cout << a << " - " << b << " = " << setprecision(8) << a - b << endl;
+}
