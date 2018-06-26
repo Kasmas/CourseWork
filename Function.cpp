@@ -39,3 +39,22 @@ void Error()
 {
 	cout << "Invalid input, try again" << endl;
 }
+
+void Sum()
+{
+	int number;
+	cout << "Enter the number of numbers: ";
+	cin >> number;
+	double * s = new double[number];
+	double answer = 0;
+	for (int i = 0; i < number; i++)
+	{
+		cout << "Enter " << i + 1 << " the number: ";
+		cin >> s[i];
+		answer += s[i];
+	}
+	for (int i = 0; i < number - 1; i++)
+		cout << setprecision(8) << s[i] << " + ";
+	cout << setprecision(8) << s[number - 1] << " = " << setprecision(8) << answer << endl;
+	delete[]s;
+}
