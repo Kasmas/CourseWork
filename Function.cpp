@@ -66,7 +66,7 @@ void Sub()
 	cin >> a;
 	cout << "Enter the second numbe: ";
 	cin >> b;
-	cout << a << " / " << b << " = " << setprecision(8) << a - b << endl;
+	cout << a << " - " << b << " = " << setprecision(8) << a - b << endl;
 }
 
 void Mul()
