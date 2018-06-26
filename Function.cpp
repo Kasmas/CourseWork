@@ -69,14 +69,6 @@ void Sub()
 	cout << a << " / " << b << " = " << setprecision(8) << a / b << endl;
 }
 
-void Sqrt()
-{
-	double a;
-	cout << "Enter the number: ";
-	cin >> a;
-	cout << "sqrt(" << a << ") = " << sqrt(a) << endl;
-}
-
 void Mul()
 {
 	int number;
@@ -104,6 +96,14 @@ void Div()
 	cout << "Enter the second numbe: ";
 	cin >> b;
 	cout << a << " / " << b << " = " << setprecision(8) << a / b << endl;
+}
+
+void Sqrt()
+{
+	double a;
+	cout << "Enter the number: ";
+	cin >> a;
+	cout << "sqrt(" << a << ") = " << sqrt(a) << endl;
 }
 
 void Radical()
