@@ -75,9 +75,6 @@ void Sqrt()
 	cout << "Enter the number: ";
 	cin >> a;
 	cout << "sqrt(" << a << ") = " << sqrt(a) << endl;
-	cout << "Enter the second number: ";
-	cin >> b;
-	cout << a << " - " << b << " = " << setprecision(8) << a - b << endl;
 }
 
 void Mul()
