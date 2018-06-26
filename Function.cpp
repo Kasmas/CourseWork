@@ -39,3 +39,21 @@ void Error()
 {
 	cout << "Invalid input, try again" << endl;
 }
+
+void Div()
+{
+	double a, b;
+	cout << "Enter the first number: ";
+	cin >> a;
+	cout << "Enter the second numbe: ";
+	cin >> b;
+	cout << a << " / " << b << " = " << setprecision(8) << a / b << endl;
+}
+
+void Sqrt()
+{
+	double a;
+	cout << "Enter the number: ";
+	cin >> a;
+	cout << "sqrt(" << a << ") = " << sqrt(a) << endl;
+}
